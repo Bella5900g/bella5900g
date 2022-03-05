@@ -1,8 +1,8 @@
 ### Olá! Eu sou a Isabella Vieira
 
 - 🔭 Hoje trabalho como Analista QA
-- 👨‍🎓 Formação: Analise e Desenvolvimento de Sistemas
-- 🌱 Estudando: Arquitectura de Dados
+- 👨‍🎓 Formação: Análise e Desenvolvimento de Sistemas
+- 🌱 Estudando: Arquitetura de Dados
 - 😄 Pronouns: ela/dela
 <div align="center">
   <a href="https://github.com/bella5900g">
