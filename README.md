@@ -2,7 +2,8 @@
 
 - 🔭 Hoje trabalho como Analista QA
 - 👨‍🎓 Formação: Análise e Desenvolvimento de Sistemas
-- 🌱 Estudando: Arquitetura de Dados
+- 🌱 Estudando: DevOps
+- ✨ Especialização: Engenheiro de Qualidade de Software (Cursando)
 - 😄 Pronouns: ela/dela
 <div align="center">
   <a href="https://github.com/bella5900g">
