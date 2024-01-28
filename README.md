@@ -3,7 +3,7 @@
 - 🔭 Engenheira QA
 - 👨‍🎓 Formação: Análise e Desenvolvimento de Sistemas (ADS)
 - 🌱 Estudando: Engenharia de Software
-- ✨ Especialização: Engenheira da Qualidade de Software
+- ✨ Especialização: Engenharia da Qualidade de Software
 - 😄 Pronouns: ela/dela
 <div align="center">
   <a href="https://github.com/bella5900g">
