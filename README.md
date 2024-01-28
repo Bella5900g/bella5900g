@@ -1,9 +1,9 @@
 ### Olá! Eu sou a Isabella Vieira
 
-- 🔭 Hoje trabalho como Analista QA
-- 👨‍🎓 Formação: Análise e Desenvolvimento de Sistemas
-- 🌱 Estudando: DevOps
-- ✨ Especialização: Engenheiro de Qualidade de Software (Cursando)
+- 🔭 Engenheira QA
+- 👨‍🎓 Formação: Análise e Desenvolvimento de Sistemas (ADS)
+- 🌱 Estudando: Engenharia de Software
+- ✨ Especialização: Engenheira da Qualidade de Software
 - 😄 Pronouns: ela/dela
 <div align="center">
   <a href="https://github.com/bella5900g">
