@@ -85,12 +85,6 @@
   <img src="https://komarev.com/ghpvc/?username=bella5900g&color=blueviolet&style=flat-square" alt="Profile Views">
 </div>
 
-## 🐍 **Contribuições**
-
-<div align="center">
-  <img src="https://github.com/bella5900g/bella5900g/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
-
 ---
 
 <div align="center">
