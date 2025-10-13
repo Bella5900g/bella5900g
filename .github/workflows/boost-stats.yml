@@ -1,0 +1,26 @@
+name: Boost GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours
+  workflow_dispatch:
+
+jobs:
+  boost-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create commits
+        run: |
+          # Create multiple commits to boost stats
+          for i in {1..5}; do
+            echo "Commit $i - $(date)" >> stats-boost.txt
+            git add stats-boost.txt
+            git commit -m "📈 Boost stats - commit $i" || true
+          done
+          
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git push origin main || true

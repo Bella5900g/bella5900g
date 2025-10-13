@@ -1,0 +1,24 @@
+name: Daily Commits
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Runs daily at 9 AM
+  workflow_dispatch:
+
+jobs:
+  daily-commits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Daily activity
+        run: |
+          # Create daily commits
+          echo "Daily activity - $(date)" >> daily-log.txt
+          git add daily-log.txt
+          git commit -m "📅 Daily activity - $(date +%Y-%m-%d)" || true
+          
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git push origin main || true

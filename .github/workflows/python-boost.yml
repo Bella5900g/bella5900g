@@ -1,0 +1,26 @@
+name: Python Stats Boost
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Runs daily at noon
+  workflow_dispatch:
+
+jobs:
+  python-boost:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Boost stats
+        run: |
+          python boost-stats.py
+          
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git push origin main || true
