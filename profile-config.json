@@ -1,0 +1,51 @@
+{
+  "name": "Isabella Vieira Barbosa",
+  "username": "bella5900g",
+  "title": "QA Chapter Lead | Meta | Automação & Performance",
+  "bio": "Profissional sênior em Qualidade de Software com mais de 10 anos de experiência, atualmente Analista de QA Sênior na Meta.",
+  "location": "Birigui, São Paulo, Brasil",
+  "email": "bellacandy5900g@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/isabella-v-990679230/",
+  "portfolio": "https://bella5900g.github.io/isabella-vieira-portfolio/",
+  "pronouns": "ela/dela",
+  "current_company": "Meta",
+  "current_position": "Analista de QA Sênior",
+  "experience_years": "10+",
+  "certifications": [
+    "ISTQB® CTFL",
+    "ASTFCT™ (AICS)"
+  ],
+  "education": [
+    {
+      "degree": "Bacharelado em Engenharia de Software",
+      "institution": "Descomplica",
+      "status": "Em andamento"
+    },
+    {
+      "degree": "Pós-graduação em Engenharia de Software",
+      "institution": "UNICV",
+      "status": "Concluída"
+    },
+    {
+      "degree": "Análise e Desenvolvimento de Sistemas",
+      "institution": "UniDomBosco",
+      "status": "Concluída"
+    }
+  ],
+  "achievements": [
+    "70% de redução de bugs em produção",
+    "R$ 1.5M em economia gerada",
+    "30% de aceleração nos releases",
+    "R$ 2B em transações processadas anualmente",
+    "99.9% de uptime garantido"
+  ],
+  "technologies": {
+    "automation": ["Selenium", "Cypress", "Robot Framework", "Python", "JavaScript"],
+    "qa_tools": ["Postman", "JMeter", "Azure DevOps", "Jira", "DBeaver"],
+    "development": ["HTML5", "CSS3", "MySQL", "C#", "VS Code"],
+    "methodologies": ["Agile", "DevOps", "CI/CD", "BDD"]
+  },
+  "theme": "tokyonight",
+  "auto_update": true,
+  "update_frequency": "daily"
+}

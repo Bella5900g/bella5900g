@@ -1,0 +1,24 @@
+name: Update Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README with latest stats
+        run: |
+          # This workflow ensures the GitHub stats are always fresh
+          echo "Stats updated on $(date)" >> README.md
+          
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "📊 Update GitHub stats" || exit 0
+          git push

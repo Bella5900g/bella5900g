@@ -1,0 +1,27 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight
+  workflow_dispatch:
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: bella5900g
+          gif_out_path: ./output/github-contribution-grid-snake.svg
+          svg_out_path: ./output/github-contribution-grid-snake.svg
+
+      - name: Push to GitHub
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: '🔄 Update contribution snake'
+          add: './output/github-contribution-grid-snake.svg'
