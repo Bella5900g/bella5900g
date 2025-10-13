@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabella Vieira Barbosa - Currículo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2563eb, #10b981);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header .title {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        .header .contact {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-size: 0.95em;
+        }
+
+        .header .contact div {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            font-size: 1.4em;
+            color: #2563eb;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .summary {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .experience-item:last-child, .education-item:last-child {
+            border-bottom: none;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+        .item-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        .company {
+            color: #2563eb;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .period {
+            color: #6b7280;
+            font-size: 0.95em;
+            white-space: nowrap;
+        }
+
+        .description {
+            color: #4b5563;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        .achievements {
+            list-style: none;
+        }
+
+        .achievements li {
+            margin-bottom: 6px;
+            padding-left: 20px;
+            position: relative;
+            color: #374151;
+        }
+
+        .achievements li:before {
+            content: "▶";
+            color: #10b981;
+            position: absolute;
+            left: 0;
+            font-size: 0.8em;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+        }
+
+        .skill-category h4 {
+            color: #2563eb;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category li {
+            margin-bottom: 4px;
+            color: #4b5563;
+            font-size: 0.95em;
+        }
+
+        .certifications {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .cert-item {
+            background: #f0f9ff;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #0ea5e9;
+            text-align: center;
+            min-width: 150px;
+        }
+
+        .cert-item h4 {
+            color: #0c4a6e;
+            margin-bottom: 5px;
+        }
+
+        .cert-item p {
+            color: #0369a1;
+            font-size: 0.9em;
+        }
+
+        .metrics {
+            background: linear-gradient(135deg, #f0f9ff, #ecfdf5);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .metrics h4 {
+            color: #2563eb;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .metric-item {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .metric-number {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #10b981;
+        }
+
+        .metric-label {
+            font-size: 0.9em;
+            color: #6b7280;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .resume-container {
+                box-shadow: none;
+                margin: 0;
+                border-radius: 0;
+            }
+            .header {
+                background: linear-gradient(135deg, #2563eb, #10b981) !important;
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header .contact {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .item-header {
+                flex-direction: column;
+                gap: 5px;
+            }
+            .period {
+                white-space: normal;
+            }
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            .certifications {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Isabella Vieira Barbosa</h1>
+            <div class="title">QA Chapter Lead | Meta | Automação & Performance</div>
+            <div class="contact">
+                <div>📧 bellacandy5900g@gmail.com</div>
+                <div>💼 linkedin.com/in/isabellavieiraqa</div>
+                <div>📍 Birigui, São Paulo, Brasil</div>
+                <div>📱 (27) 99309-3237</div>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Professional Summary -->
+            <div class="section">
+                <h2 class="section-title">Resumo Profissional</h2>
+                <div class="summary">
+                    Profissional sênior em Qualidade de Software com mais de 10 anos de experiência, 
+                    atualmente Analista de QA Sênior na Meta. Anteriormente QA Chapter Lead na Pay4Fun, 
+                    responsável por reduzir bugs em produção em até 70% e acelerar releases em 30% 
+                    através de estratégias de automação e liderança de iniciativas de QA em ambientes 
+                    ágeis e DevOps. Especialista na identificação, análise e resolução de defeitos 
+                    críticos, com foco contínuo em excelência, performance e entregas de alto valor.
+                </div>
+            </div>
+
+            <!-- Key Metrics -->
+            <div class="section">
+                <div class="metrics">
+                    <h4>Principais Conquistas Quantificáveis</h4>
+                    <div class="metrics-grid">
+                        <div class="metric-item">
+                            <div class="metric-number">70%</div>
+                            <div class="metric-label">Redução de Bugs</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">R$ 1.5M</div>
+                            <div class="metric-label">Economia Gerada</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">30%</div>
+                            <div class="metric-label">Aceleração Releases</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">R$ 2B</div>
+                            <div class="metric-label">Transações Processadas</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">10+</div>
+                            <div class="metric-label">Anos de Experiência</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">99.9%</div>
+                            <div class="metric-label">Uptime Garantido</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="section">
+                <h2 class="section-title">Experiência Profissional</h2>
+                
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Analista de QA Sênior</div>
+                            <div class="company">Meta</div>
+                        </div>
+                        <div class="period">Jul 2025 - Presente</div>
+                    </div>
+                    <div class="description">
+                        Atuação como Analista de QA Sênior na Meta, alocada em cliente do setor financeiro 
+                        que processa mais de R$ 500M em transações mensais, garantindo a qualidade de sistemas 
+                        críticos e regulados em ambiente de alta disponibilidade.
+                    </div>
+                    <ul class="achievements">
+                        <li>Desenvolvimento de 150+ scripts de automação utilizando Selenium, Python e Azure DevOps</li>
+                        <li>Redução de 60% no tempo de execução de testes e aumento de 35% na cobertura de testes</li>
+                        <li>Redução de 45% nos bugs em produção e aceleração de 30% nos releases</li>
+                        <li>Redução de 50% no retrabalho e melhoria na comunicação entre equipes</li>
+                        <li>Garantia de 99.9% de uptime em sistemas críticos</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">QA Chapter Lead</div>
+                            <div class="company">Pay4Fun</div>
+                        </div>
+                        <div class="period">Nov 2022 - Jun 2025</div>
+                    </div>
+                    <div class="description">
+                        Liderança como QA Chapter Lead na Pay4Fun, instituição de pagamento que processa 
+                        mais de R$ 2B em transações anuais, responsável por transformar a cultura de 
+                        qualidade e elevar a maturidade técnica da organização.
+                    </div>
+                    <ul class="achievements">
+                        <li>Implementação de cultura de qualidade em 5 squads, resultando em redução de 70% nos bugs em produção</li>
+                        <li>Formação e mentoria de equipe de 8 QAs, com 100% de retenção e promoção de 3 analistas</li>
+                        <li>Aumento da cobertura de testes de 30% para 85%, reduzindo o tempo de release de 2 semanas para 3 dias</li>
+                        <li>Economia de R$ 1.5M em custos operacionais e redução de 60% no tempo de resolução de incidentes</li>
+                        <li>Introdução de práticas de Shift-Left Testing e BDD, melhorando a comunicação em 50%</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Analista de QA Sênior</div>
+                            <div class="company">Paraná Banco S/A</div>
+                        </div>
+                        <div class="period">Mai 2022 - Nov 2022</div>
+                    </div>
+                    <div class="description">
+                        Atuação como Analista de QA Sênior no Paraná Banco, garantindo a qualidade de 
+                        soluções digitais que atendem mais de 500K clientes, com foco em sistemas críticos 
+                        de pagamentos e transações bancárias.
+                    </div>
+                    <ul class="achievements">
+                        <li>Desenvolvimento de 200+ casos de teste automatizados com Cypress e Postman</li>
+                        <li>Aumento da cobertura de testes de 40% para 75% e redução do tempo de execução em 65%</li>
+                        <li>Otimização de 40% na performance das APIs críticas através de testes de carga</li>
+                        <li>Redução de 55% nos bugs em produção, resultando em economia de R$ 800K</li>
+                        <li>Implementação de práticas de QA em 3 squads ágeis, melhorando a comunicação em 50%</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Analista de QA Freelancer</div>
+                            <div class="company">uTest</div>
+                        </div>
+                        <div class="period">Set 2018 - Jan 2021</div>
+                    </div>
+                    <div class="description">
+                        Atuação como Analista de QA Freelancer na plataforma uTest, prestando serviços 
+                        especializados em testes de performance e qualidade para produtos digitais globais, 
+                        atendendo clientes de diferentes setores e escalas.
+                    </div>
+                    <ul class="achievements">
+                        <li>Execução de testes de carga e stress para 20+ projetos globais</li>
+                        <li>Otimização média de 40% na performance dos sistemas</li>
+                        <li>Desenvolvimento de scripts de automação com Cypress e Capybara para 15+ clientes</li>
+                        <li>Aumento da eficiência de testes em 60% e redução de custos operacionais</li>
+                        <li>Economia média de R$ 200K por projeto em custos de manutenção e suporte</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section">
+                <h2 class="section-title">Formação Acadêmica</h2>
+                
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Bacharelado em Engenharia de Software</div>
+                            <div class="company">Descomplica</div>
+                        </div>
+                        <div class="period">Jan 2024 - Dez 2027</div>
+                    </div>
+                    <div class="description">Em andamento</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Pós-graduação Lato Sensu em Engenharia de Software</div>
+                            <div class="company">UNICV - Centro Universitário Cidade Verde</div>
+                        </div>
+                        <div class="period">Ago 2022 - Jul 2023</div>
+                    </div>
+                    <div class="description">Concluída</div>
+                </div>
+
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Análise e Desenvolvimento de Sistemas</div>
+                            <div class="company">UniDomBosco</div>
+                        </div>
+                        <div class="period">Nov 2016 - Dez 2018</div>
+                    </div>
+                    <div class="description">Concluída</div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="section">
+                <h2 class="section-title">Certificações</h2>
+                <div class="certifications">
+                    <div class="cert-item">
+                        <h4>ISTQB® CTFL</h4>
+                        <p>Foundation Level</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>ASTFCT™ (AICS)</h4>
+                        <p>Advanced Level</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="section">
+                <h2 class="section-title">Competências Técnicas</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Automação de Testes</h4>
+                        <ul>
+                            <li>Selenium WebDriver</li>
+                            <li>Cypress</li>
+                            <li>Robot Framework</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Ferramentas de QA</h4>
+                        <ul>
+                            <li>Postman</li>
+                            <li>JMeter</li>
+                            <li>DBeaver</li>
+                            <li>Azure DevOps</li>
+                            <li>Jira</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Metodologias</h4>
+                        <ul>
+                            <li>Agile/Scrum</li>
+                            <li>DevOps</li>
+                            <li>CI/CD</li>
+                            <li>BDD</li>
+                            <li>Shift-Left Testing</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Liderança & Gestão</h4>
+                        <ul>
+                            <li>Liderança de Equipes</li>
+                            <li>Mentoria</li>
+                            <li>Estratégia de QA</li>
+                            <li>Gestão de Projetos</li>
+                            <li>Compliance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Função para gerar PDF
+        function generatePDF() {
+            window.print();
+        }
+
+        // Adicionar botão de download se não estiver em modo de impressão
+        if (!window.matchMedia('print').matches) {
+            document.addEventListener('DOMContentLoaded', function() {
+                const button = document.createElement('button');
+                button.innerHTML = '📄 Baixar PDF';
+                button.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    background: #2563eb;
+                    color: white;
+                    border: none;
+                    padding: 12px 20px;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-size: 14px;
+                    font-weight: 600;
+                    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+                    z-index: 1000;
+                `;
+                button.onclick = generatePDF;
+                document.body.appendChild(button);
+            });
+        }
+    </script>
+</body>
+</html>
