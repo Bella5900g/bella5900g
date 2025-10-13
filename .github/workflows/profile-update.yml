@@ -1,0 +1,22 @@
+name: Update Profile
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight
+  workflow_dispatch:
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update profile README
+        run: |
+          echo "Profile updated on $(date)" >> .github/profile/README.md
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .github/profile/README.md
+          git commit -m "Update profile README" || exit 0
+          git push
