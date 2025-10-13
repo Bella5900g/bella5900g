@@ -48,8 +48,8 @@ def main():
     print("Iniciando boost das estatisticas do GitHub...")
     
     # Configura git
-    subprocess.run(["git", "config", "--local", "user.email", "action@github.com"], check=False)
-    subprocess.run(["git", "config", "--local", "user.name", "GitHub Action"], check=False)
+    subprocess.run(["git", "config", "--local", "user.email", "bellacandy5900g@gmail.com"], check=False)
+    subprocess.run(["git", "config", "--local", "user.name", "Bella5900g"], check=False)
     
     # Cria commits
     create_commits()

@@ -21,6 +21,6 @@ jobs:
             git commit -m "📊 Weekly stats boost - commit $i" || true
           done
           
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "bellacandy5900g@gmail.com"
+          git config --local user.name "Bella5900g"
           git push origin main || true
