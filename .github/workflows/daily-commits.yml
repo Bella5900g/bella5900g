@@ -12,6 +12,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Configure Git
+        run: |
+          git config --local user.email "bellacandy5900g@gmail.com"
+          git config --local user.name "Bella5900g"
+
       - name: Daily activity
         run: |
           # Create daily commits
@@ -19,6 +24,4 @@ jobs:
           git add daily-log.txt
           git commit -m "📅 Daily activity - $(date +%Y-%m-%d)" || true
           
-          git config --local user.email "bellacandy5900g@gmail.com"
-          git config --local user.name "Bella5900g"
           git push origin main || true

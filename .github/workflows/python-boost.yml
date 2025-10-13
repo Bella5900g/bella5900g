@@ -17,10 +17,12 @@ jobs:
         with:
           python-version: '3.9'
 
+      - name: Configure Git
+        run: |
+          git config --local user.email "bellacandy5900g@gmail.com"
+          git config --local user.name "Bella5900g"
+
       - name: Boost stats
         run: |
           python boost-stats.py
-          
-          git config --local user.email "bellacandy5900g@gmail.com"
-          git config --local user.name "Bella5900g"
           git push origin main || true

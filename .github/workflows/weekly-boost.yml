@@ -12,6 +12,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Configure Git
+        run: |
+          git config --local user.email "bellacandy5900g@gmail.com"
+          git config --local user.name "Bella5900g"
+
       - name: Weekly commits
         run: |
           # Create weekly commits
@@ -21,6 +26,4 @@ jobs:
             git commit -m "📊 Weekly stats boost - commit $i" || true
           done
           
-          git config --local user.email "bellacandy5900g@gmail.com"
-          git config --local user.name "Bella5900g"
           git push origin main || true
