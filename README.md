@@ -20,9 +20,9 @@
 
 ### 🏆 **Principais Conquistas**
 - 🎯 **70%** redução de bugs em produção
-- 💰 **R$ 1.5M** economia gerada
 - ⚡ **30%** aceleração de releases
-- 💳 **R$ 2B** transações processadas
+- 👥 **500K+** clientes atendidos
+- 🏆 **99.9%** uptime garantido
 
 ## 🛠️ **Stack Técnico**
 
