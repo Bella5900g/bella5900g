@@ -1,4 +1,3 @@
-<!-- Last updated: Sun Oct 19 01:56:11 UTC 2025 -->
 # 👋 Olá! Eu sou a Isabella Vieira Barbosa
 
 <div align="center">
@@ -21,10 +20,11 @@
 Profissional sênior em Qualidade de Software com mais de 10 anos de experiência, atualmente Analista de QA Sênior na Meta.
 
 ### 🏆 **Principais Conquistas**
-- 🎯 **70%** redução de bugs em produção
-- ⚡ **30%** aceleração de releases
-- 👥 **500K+** clientes atendidos
-- 🏆 **99.9%** uptime garantido
+- 🎯 **70%** de redução de bugs em produção
+- 💰 **R$ 1.5M** em economia gerada
+- ⚡ **30%** de aceleração nos releases
+- 💳 **R$ 2B** em transações processadas anualmente
+- 🏅 **99.9%** de uptime garantido
 
 ## 🛠️ **Tecnologias & Ferramentas**
 
@@ -113,5 +113,4 @@ Profissional sênior em Qualidade de Software com mais de 10 anos de experiênci
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer" />
 </div>
 
-<!-- Última atualização: 19/10/2025 00:47:27 -->
-Stats updated on Sun Oct 19 01:55:03 UTC 2025
+<!-- Última atualização: 20/10/2025 00:45:48 -->
