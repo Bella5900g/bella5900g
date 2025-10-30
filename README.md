@@ -16,7 +16,7 @@ Profissional sênior em Qualidade de Software com mais de 10 anos de experiênci
 
 ### 🏆 **Principais Conquistas**
 - 🎯 **70%** de redução de bugs em produção
-- ⚡ **30%** de aceleração nos releases
+- ⚡ **30%** de aceleração nas releases
 - 🏅 **99.9%** de uptime garantido
 
 ## 🛠️ **Tecnologias & Ferramentas**
