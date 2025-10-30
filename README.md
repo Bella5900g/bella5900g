@@ -7,9 +7,7 @@
 
 <br>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/QA%20Chapter%20Lead-Meta-blue?style=for-the-badge&logo=meta" alt="QA Chapter Lead">
-  <img src="https://img.shields.io/badge/ISTQB%20CTFL-Certified-green?style=for-the-badge&logo=testing-library" alt="ISTQB CTFL">
+<div align="center"> src="https://img.shields.io/badge/ISTQB%20CTFL-Certified-green?style=for-the-badge&logo=testing-library" alt="ISTQB CTFL">
   <img src="https://img.shields.io/badge/ASTFCT-Advanced-orange?style=for-the-badge&logo=testing-library" alt="ASTFCT Advanced">
   <img src="https://img.shields.io/badge/10%2B%20Anos-Experi%C3%AAncia-purple?style=for-the-badge&logo=clock" alt="10+ Anos">
 </div>
