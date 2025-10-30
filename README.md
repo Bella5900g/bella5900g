@@ -2,13 +2,13 @@
 # 👋 Olá! Eu sou a Isabella Vieira Barbosa
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=10B981&center=true&vCenter=true&width=435&lines=QA+Chapter+Lead+%7C+Meta;Automa%C3%A7%C3%A3o+%26+Performance;%2B10+anos+de+experi%C3%AAncia;ISTQB+CTFL+%7C+ASTFCT" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=10B981&center=true&vCenter=true&width=435&lines=QA+Chapter+Lead+%7C;Automa%C3%A7%C3%A3o+%26+Performance;%2B10+anos+de+experi%C3%AAncia;ISTQB+CTFL+%7C+ASTFCT" alt="Typing SVG" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/QA%20Chapter%20Lead-Meta-blue?style=for-the-badge&logo=meta" alt="Meta QA Chapter Lead">
+  <img src="https://img.shields.io/badge/QA%20Chapter%20Lead-Meta-blue?style=for-the-badge&logo=meta" alt="QA Chapter Lead">
   <img src="https://img.shields.io/badge/ISTQB%20CTFL-Certified-green?style=for-the-badge&logo=testing-library" alt="ISTQB CTFL">
   <img src="https://img.shields.io/badge/ASTFCT-Advanced-orange?style=for-the-badge&logo=testing-library" alt="ASTFCT Advanced">
   <img src="https://img.shields.io/badge/10%2B%20Anos-Experi%C3%AAncia-purple?style=for-the-badge&logo=clock" alt="10+ Anos">
@@ -18,13 +18,11 @@
 
 ## 🎯 **Sobre Mim**
 
-Profissional sênior em Qualidade de Software com mais de 10 anos de experiência, atualmente Analista de QA Sênior na Meta.
+Profissional sênior em Qualidade de Software com mais de 10 anos de experiência, atualmente Analista de QA Sênio.
 
 ### 🏆 **Principais Conquistas**
 - 🎯 **70%** de redução de bugs em produção
-- 💰 **R$ 1.5M** em economia gerada
 - ⚡ **30%** de aceleração nos releases
-- 💳 **R$ 2B** em transações processadas anualmente
 - 🏅 **99.9%** de uptime garantido
 
 ## 🛠️ **Tecnologias & Ferramentas**
