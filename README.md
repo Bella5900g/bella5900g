@@ -73,9 +73,7 @@ Profissional sênior em Qualidade de Software com mais de 10 anos de experiênci
 ## 📱 **Contato & Links**
 
 <div align="center">
-  <a href="https://bella5900g.github.io/isabella-vieira-portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=portfolio&logoColor=white" alt="Portfolio">
-  </a>
+  
   <a href="https://www.linkedin.com/in/isabella-v-990679230/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
