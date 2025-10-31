@@ -1,22 +1,29 @@
-<!-- Last updated: Thu Oct 30 01:52:54 UTC 2025 -->
 # 👋 Olá! Eu sou a Isabella Vieira Barbosa
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=10B981&center=true&vCenter=true&width=435&lines=QA+Chapter+Lead+%7C;Automa%C3%A7%C3%A3o+%26+Performance;%2B10+anos+de+experi%C3%AAncia;ISTQB+CTFL+%7C+ASTFCT" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=10B981&center=true&vCenter=true&width=435&lines=QA+Chapter+Lead+%7C+Meta;Automa%C3%A7%C3%A3o+%26+Performance;%2B10+anos+de+experi%C3%AAncia;ISTQB+CTFL+%7C+ASTFCT" alt="Typing SVG" />
 </div>
 
 <br>
 
+<div align="center">
+  <img src="https://img.shields.io/badge/QA%20Chapter%20Lead-Meta-blue?style=for-the-badge&logo=meta" alt="Meta QA Chapter Lead">
+  <img src="https://img.shields.io/badge/ISTQB%20CTFL-Certified-green?style=for-the-badge&logo=testing-library" alt="ISTQB CTFL">
+  <img src="https://img.shields.io/badge/ASTFCT-Advanced-orange?style=for-the-badge&logo=testing-library" alt="ASTFCT Advanced">
+  <img src="https://img.shields.io/badge/10%2B%20Anos-Experi%C3%AAncia-purple?style=for-the-badge&logo=clock" alt="10+ Anos">
+</div>
 
 <br>
 
 ## 🎯 **Sobre Mim**
 
-Profissional sênior em Qualidade de Software com mais de 10 anos de experiência, atualmente Analista de QA Sênio.
+Profissional sênior em Qualidade de Software com mais de 10 anos de experiência, atualmente Analista de QA Sênior na Meta.
 
 ### 🏆 **Principais Conquistas**
 - 🎯 **70%** de redução de bugs em produção
-- ⚡ **30%** de aceleração nas releases
+- 💰 **R$ 1.5M** em economia gerada
+- ⚡ **30%** de aceleração nos releases
+- 💳 **R$ 2B** em transações processadas anualmente
 - 🏅 **99.9%** de uptime garantido
 
 ## 🛠️ **Tecnologias & Ferramentas**
@@ -73,7 +80,9 @@ Profissional sênior em Qualidade de Software com mais de 10 anos de experiênci
 ## 📱 **Contato & Links**
 
 <div align="center">
-  
+  <a href="https://bella5900g.github.io/isabella-vieira-portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=portfolio&logoColor=white" alt="Portfolio">
+  </a>
   <a href="https://www.linkedin.com/in/isabella-v-990679230/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
@@ -104,5 +113,4 @@ Profissional sênior em Qualidade de Software com mais de 10 anos de experiênci
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer" />
 </div>
 
-<!-- Última atualização: 30/10/2025 00:44:53 -->
-Stats updated on Thu Oct 30 01:51:32 UTC 2025
+<!-- Última atualização: 31/10/2025 00:43:13 -->
