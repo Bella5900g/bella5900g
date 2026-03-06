@@ -1,3 +1,4 @@
+<!-- Last updated: Fri Mar  6 02:28:12 UTC 2026 -->
 # 👋 Olá! Eu sou a Isabella Vieira Barbosa
 
 <div align="center">
