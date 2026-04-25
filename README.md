@@ -1,4 +1,3 @@
-<!-- Last updated: Fri Apr 24 03:19:44 UTC 2026 -->
 # 👋 Olá! Eu sou a Isabella Vieira Barbosa
 
 <div align="center">
@@ -114,5 +113,4 @@ Profissional sênior em Qualidade de Software com mais de 10 anos de experiênci
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer" />
 </div>
 
-<!-- Última atualização: 24/04/2026 01:19:53 -->
-Stats updated on Fri Apr 24 03:18:08 UTC 2026
+<!-- Última atualização: 25/04/2026 01:13:03 -->
