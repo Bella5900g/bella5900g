@@ -1,7 +1,7 @@
 # 👋 Olá! Eu sou a Isabella Vieira Barbosa
 
 <div align="center">
-  <img src="https://img.shields.io/badge/QA%20Chapter%20Lead-Meta-blue?style=for-the-badge&logo=meta" alt="Meta QA Chapter Lead">
+  <img src="https://img.shields.io/badge/QA%20Chapter%20Lead-Meta-blue?style=for-the-badge" alt="QA Chapter Lead na empresa Meta">
   <img src="https://img.shields.io/badge/ISTQB%20CTFL-Certified-green?style=for-the-badge&logo=testing-library" alt="ISTQB CTFL">
   <img src="https://img.shields.io/badge/ASTFCT-Advanced-orange?style=for-the-badge&logo=testing-library" alt="ASTFCT Advanced">
 </div>
